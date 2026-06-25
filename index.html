@@ -88,7 +88,6 @@
 
 			<section id="news" class="section section-narrow">
 				<div class="section-heading">
-					<p class="eyebrow">Updates</p>
 					<h2>Recent News</h2>
 				</div>
 				<div class="news-list">
@@ -107,7 +106,6 @@
 
 			<section id="publications" class="section section-narrow">
 				<div class="section-heading">
-					<p class="eyebrow">Research</p>
 					<h2>Publications</h2>
 				</div>
 
@@ -125,7 +123,7 @@
 							<a href="https://arxiv.org/abs/2604.27252">Unified Data Discovery across Query Modalities and User Intents</a>
 						</p>
 						<p><strong>Tingting Wang</strong>, Shixun Huang, Zhifeng Bao, J. Shane Culpepper, Shazia Sadiq, Volkan Dedeoglu, Reza Arablouei.</p>
-						<p class="venue">Under review at NIPS 2026</p>
+						<p class="venue">Under review at NIPS 2026.</p>
 					</article>
 					<article class="publication">
 						<p class="pub-title">
@@ -213,100 +211,112 @@
 
 			<section id="projects" class="section section-narrow">
 				<div class="section-heading">
-					<p class="eyebrow">Projects</p>
-					<h2>Target-Driven Data Curation</h2>
-					<p class="section-intro">
-						This topic focuses on discovering, assembling, and acquiring high-quality data from heterogeneous
-						data lakes for target-oriented AI applications.
-					</p>
+					<h2>Projects</h2>
 				</div>
 
-				<div class="project-list">
-					<article class="project-card">
-						<p class="project-label">Dataset Discovery</p>
-						<h3>Unified Data Discovery across Query Modalities and User Intents</h3>
-						<figure class="project-figure">
-							<img src="images/projects/unidisc.png" alt="Unified Data Discovery framework" />
-						</figure>
+				<div class="project-group">
+					<div class="project-group-heading">
+						<h3>Target-Driven Data Curation</h3>
 						<p>
-							Modern data lakes support diverse applications such as question answering and fact verification,
-							yet existing data discovery methods are typically designed for a single query modality or
-							specific user intent. This work studies how to uniformly retrieve relevant tables given either
-							natural language statements or tables as queries, without relying on intent-specific modeling.
-							To this end, a unified cross-modal graph learning framework is introduced to learn shared
-							representations for queries and tables by leveraging heterogeneous contextual signals in data
-							lakes under limited supervision, enabling flexible and scalable relevance assessment.
+							This topic focuses on discovering, assembling, and acquiring high-quality data from heterogeneous
+							data lakes for target-oriented AI applications.
 						</p>
-						<p class="project-links">
-							<a href="https://arxiv.org/abs/2604.27252">Paper</a>
-						</p>
-					</article>
+					</div>
+					<div class="project-list">
+						<article class="project-card">
+							<p class="project-label">Dataset Discovery</p>
+							<h3>Unified Data Discovery across Query Modalities and User Intents</h3>
+							<figure class="project-figure">
+								<img src="images/projects/unidisc.png" alt="Unified Data Discovery framework" />
+							</figure>
+							<p>
+								Modern data lakes support diverse applications such as question answering and fact verification,
+								yet existing data discovery methods are typically designed for a single query modality or
+								specific user intent. This work studies how to uniformly retrieve relevant tables given either
+								natural language statements or tables as queries, without relying on intent-specific modeling.
+								To this end, a unified cross-modal graph learning framework is introduced to learn shared
+								representations for queries and tables by leveraging heterogeneous contextual signals in data
+								lakes under limited supervision, enabling flexible and scalable relevance assessment.
+							</p>
+							<p class="project-links">
+								<a href="https://arxiv.org/abs/2604.27252">Paper</a>
+							</p>
+						</article>
 
-					<article class="project-card">
-						<p class="project-label">Dataset Assemblage</p>
-						<h3>Distinctiveness Maximization in Datasets Assemblage</h3>
-						<figure class="project-figure">
-							<img src="images/projects/dm.png" alt="Distinctiveness Maximization framework" />
-						</figure>
-						<p>
-							Modern data lakes offer abundant datasets, yet existing discovery methods typically evaluate
-							datasets individually, leading to redundant acquisitions and inefficient budget usage. This
-							work studies how to assemble a set of datasets under a budget to maximize the amount of
-							distinct information with respect to a query set. We formulate this as a distinctiveness
-							maximization problem and develop an efficient ML-based method to estimate dataset
-							distinctiveness, enabling scalable greedy selection without expensive exact computation.
-						</p>
-						<p class="project-links">
-							<a href="https://dl.acm.org/doi/10.1145/3696410.3714830">Paper</a>
-							<a href="https://github.com/rmitbggroup/DM">Code</a>
-						</p>
-					</article>
+						<article class="project-card">
+							<p class="project-label">Dataset Assemblage</p>
+							<h3>Distinctiveness Maximization in Datasets Assemblage</h3>
+							<figure class="project-figure">
+								<img src="images/projects/dm.png" alt="Distinctiveness Maximization framework" />
+							</figure>
+							<p>
+								Modern data lakes offer abundant datasets, yet existing discovery methods typically evaluate
+								datasets individually, leading to redundant acquisitions and inefficient budget usage. This
+								work studies how to assemble a set of datasets under a budget to maximize the amount of
+								distinct information with respect to a query set. We formulate this as a distinctiveness
+								maximization problem and develop an efficient ML-based method to estimate dataset
+								distinctiveness, enabling scalable greedy selection without expensive exact computation.
+							</p>
+							<p class="project-links">
+								<a href="https://dl.acm.org/doi/10.1145/3696410.3714830">Paper</a>
+								<a href="https://github.com/rmitbggroup/DM">Code</a>
+							</p>
+						</article>
 
-					<article class="project-card">
-						<p class="project-label">Data Point Selection</p>
-						<h3>Optimizing Data Acquisition to Enhance Machine Learning Performance</h3>
-						<figure class="project-figure">
-							<img src="images/projects/daml.png" alt="Data acquisition for machine learning framework" />
-						</figure>
-						<p>
-							Modern machine learning models depend heavily on training data quality, yet simply collecting
-							more data does not guarantee better performance. This work studies how to select high-quality
-							labeled data from large, heterogeneous data pools to improve a target ML model. Since validating
-							data value typically requires repeated retraining during selection, which is computationally
-							expensive, we develop adaptive, model-agnostic algorithms that combine online learning with
-							dynamic exploration-exploitation scoring to efficiently estimate data utility without full
-							retraining.
-						</p>
-						<p class="project-links">
-							<a href="https://www.vldb.org/pvldb/vol17/p1310-bao.pdf">Paper</a>
-							<a href="https://github.com/rmitbggroup/da-ml">Code</a>
-						</p>
-					</article>
+						<article class="project-card">
+							<p class="project-label">Data Point Selection</p>
+							<h3>Optimizing Data Acquisition to Enhance Machine Learning Performance</h3>
+							<figure class="project-figure">
+								<img src="images/projects/daml.png" alt="Data acquisition for machine learning framework" />
+							</figure>
+							<p>
+								Modern machine learning models depend heavily on training data quality, yet simply collecting
+								more data does not guarantee better performance. This work studies how to select high-quality
+								labeled data from large, heterogeneous data pools to improve a target ML model. Since validating
+								data value typically requires repeated retraining during selection, which is computationally
+								expensive, we develop adaptive, model-agnostic algorithms that combine online learning with
+								dynamic exploration-exploitation scoring to efficiently estimate data utility without full
+								retraining.
+							</p>
+							<p class="project-links">
+								<a href="https://www.vldb.org/pvldb/vol17/p1310-bao.pdf">Paper</a>
+								<a href="https://github.com/rmitbggroup/da-ml">Code</a>
+							</p>
+						</article>
+					</div>
 				</div>
 			</section>
 
 			<section id="service" class="section section-narrow">
 				<div class="section-heading">
-					<p class="eyebrow">Community</p>
 					<h2>Professional Service</h2>
 				</div>
-				<ul class="service-list">
-					<li>Session Chair, The ACM Web Conference 2025 (WWW 2025)</li>
-					<li>Session Chair, Australasian Database Conference 2023 (ADC 2023)</li>
-					<li>Senior Program Committee Member, Pacific-Asia Conference on Knowledge Discovery and Data Mining 2026 (PAKDD 2026)</li>
-					<li>Program Committee Member, The Web Conference 2026 (WWW 2026)</li>
-					<li>Program Committee Member, ACM International Conference on Information and Knowledge Management 2023, 2024, 2025 (CIKM)</li>
-					<li>Scientific Program Committee Member, IEEE Swiss Conference on Data Science 2025 (SDS 2025)</li>
-				</ul>
+				<div class="service-list">
+					<section class="service-group">
+						<h3>Area Chair</h3>
+						<p>KDD 2026</p>
+					</section>
+					<section class="service-group">
+						<h3>Senior Program Committee Member</h3>
+						<p>PAKDD 2026</p>
+					</section>
+					<section class="service-group">
+						<h3>Program Committee Member</h3>
+						<p>WWW 2026; CIKM 2023, 2024, 2025</p>
+					</section>
+					<section class="service-group">
+						<h3>Session Chair</h3>
+						<p>WWW 2025; ADC 2023</p>
+					</section>
+				</div>
 			</section>
 
 			<section id="awards" class="section section-narrow">
 				<div class="section-heading">
-					<p class="eyebrow">Recognition</p>
 					<h2>Awards</h2>
 				</div>
 				<div class="award-grid">
-					<p><span>2022 - 2024</span>Data61 PhD Scholarship</p>
+					<p><span>2022 - 2024</span>CSIRO Data61 PhD Scholarship</p>
 					<p><span>2018 - 2020</span>Second-class Scholarship of SCU</p>
 					<p><span>2017</span>Outstanding Graduate Award of SCU</p>
 					<p><span>2016</span>National Scholarship of China</p>

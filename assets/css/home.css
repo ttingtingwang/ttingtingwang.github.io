@@ -166,15 +166,6 @@ a:hover {
 	padding-top: 0.35rem;
 }
 
-.eyebrow {
-	margin: 0 0 0.6rem;
-	color: var(--accent);
-	font-size: 0.78rem;
-	font-weight: 800;
-	letter-spacing: 0.08em;
-	text-transform: uppercase;
-}
-
 .bio h2,
 .section-heading h2 {
 	margin: 0;
@@ -267,7 +258,7 @@ a:hover {
 
 .news-list,
 .publication-group,
-.project-list,
+.project-group,
 .service-list,
 .award-grid {
 	background: var(--panel);
@@ -326,8 +317,24 @@ a:hover {
 	margin-top: 0.3rem;
 }
 
-.project-list {
+.project-group {
 	overflow: hidden;
+}
+
+.project-group-heading {
+	padding: 1rem 1.25rem;
+	background: var(--accent-soft);
+	color: var(--accent-dark);
+}
+
+.project-group-heading h3 {
+	margin: 0;
+	font-size: 1.05rem;
+}
+
+.project-group-heading p {
+	margin: 0.45rem 0 0;
+	color: #335b6d;
 }
 
 .project-card {
@@ -392,13 +399,23 @@ a:hover {
 	padding: 0.45rem 1.25rem;
 }
 
-.service-list li {
+.service-group {
 	padding: 0.78rem 0;
 	border-bottom: 1px solid var(--line);
 }
 
-.service-list li:last-child {
+.service-group:last-child {
 	border-bottom: 0;
+}
+
+.service-group h3 {
+	margin: 0 0 0.25rem;
+	font-size: 1rem;
+}
+
+.service-group p {
+	margin: 0;
+	color: var(--muted);
 }
 
 .award-grid {
