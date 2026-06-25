@@ -1,545 +1,324 @@
-<!DOCTYPE HTML>
-<!--
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>Welcome to Tingting Wang' home page</title>
+		<title>Tingting Wang</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Tingting Wang's homepage." />
+		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+		<link rel="stylesheet" href="assets/css/home.css" />
 	</head>
-	<body class="is-preload">
+	<body>
+		<header class="site-header">
+			<a class="site-title" href="#home">Tingting Wang</a>
+			<nav class="site-nav" aria-label="Primary navigation">
+				<a href="#home">Home</a>
+				<a href="#news">News</a>
+				<a href="#publications">Publications</a>
+				<a href="#projects">Projects</a>
+				<a href="#service">Service</a>
+				<a href="#awards">Awards</a>
+			</nav>
+		</header>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Education</a></li>
-						<li><a href="#three">Publications</a></li>
-						<li><a href="#four">Experience</a></li>
-						<li><a href="#five">Awards</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
+		<main id="home">
+			<section class="intro section">
+				<aside class="profile">
+					<img class="avatar" src="images/avatar-new.png" alt="Tingting Wang" />
+					<h1>Tingting Wang</h1>
+					<p class="role">Postdoctoral Research Fellow</p>
+					<p class="affiliation">The University of Queensland</p>
+					<div class="profile-links" aria-label="Profile links">
+						<a href="mailto:tingting.wang@uq.edu.au" aria-label="Email Tingting Wang">
+							<i class="fas fa-envelope"></i>
+						</a>
+						<a href="https://dblp.org/pid/75/4702-9" aria-label="DBLP profile search">
+							<i class="fas fa-book-open"></i>
+						</a>
+						<a href="https://scholar.google.com/citations?user=XWaJ_eAAAAAJ&hl=en" aria-label="Google Scholar search">
+							<i class="fas fa-graduation-cap"></i>
+						</a>
+					</div>
+				</aside>
+
+				<div class="bio">
+					<h2>About</h2>
+					<p>
+						I obtained my Ph.D. in the School of Computing Technologies from RMIT University in 2025,
+						supervised by <a href="https://baozhifeng.net/">Prof. Zhifeng Bao</a>,
+						<a href="https://jsc.github.io/">Prof. J. Shane Culpepper</a>, and
+						<a href="https://shixunh.io/">Dr. Shixun Huang</a>. My research lies at the intersection of
+						data management, machine learning, and large-scale intelligent systems.
+					</p>
+					<p>
+						My work focuses on learning-enhanced, target-oriented data ecosystems that improve both AI
+						performance and data system scalability. I develop data-centric frameworks and algorithms for
+						intelligent data orchestration across multi-modal data lakes.
+					</p>
+					<p>
+						Broadly, I am interested in unifying database principles with modern AI techniques: using AI to
+						make data management systems more adaptive, and using data management foundations to improve
+						the reliability, efficiency, and transparency of AI systems.
+					</p>
+
+					<div class="bio-grid">
+						<section>
+							<h3>Education</h3>
+							<ul class="timeline">
+								<li>
+									<span>2021 - 2025</span>
+									<strong>Ph.D. in Computing Technologies</strong>
+									<a href="https://www.rmit.edu.au/">RMIT University</a>
+								</li>
+								<li>
+									<span>2017 - 2020</span>
+									<strong>Master in Computer Science</strong>
+									<a href="http://scu.edu.cn/">Sichuan University</a>
+								</li>
+								<li>
+									<span>2013 - 2017</span>
+									<strong>Bachelor in Computer Science</strong>
+									<a href="http://scu.edu.cn/">Sichuan University</a>
+								</li>
+							</ul>
+						</section>
+					</div>
+				</div>
 			</section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+			<section id="news" class="section section-narrow">
+				<div class="section-heading">
+					<p class="eyebrow">Updates</p>
+					<h2>Recent News</h2>
+				</div>
+				<div class="news-list">
+					<article>
+						<time>2026</time>
+						<p>
+							We released a new survey, <em>A Survey of LLM-Powered Question Answering Through the Lens of
+							Query Processing</em>, together with a curated GitHub repository. The survey introduces a
+							pipeline-oriented taxonomy for LLM-powered QA, organizing recent work into five query-processing
+							stages and highlighting open research gaps for next-generation QA systems.
+							<a href="https://github.com/huagang01/awesome-LLM-QA">GitHub</a>
+						</p>
+					</article>
+				</div>
+			</section>
 
-				<!-- Main -->
-					<div id="main">
+			<section id="publications" class="section section-narrow">
+				<div class="section-heading">
+					<p class="eyebrow">Research</p>
+					<h2>Publications</h2>
+				</div>
 
-						<!-- One -->
-							<section id="one">
-								<div class="container">
-									<header class="major">
-										<h2>TINGTING WANG</h2>
-										<p><a href="tingting.wang@uq.edu.au">tingting.wang@uq.edu.au</a></p>
-									</header>
-									<p style="line-height:1.6; margin-bottom:0.6em;">
-									I obtained my Ph.D. in School of Computing Technologies from RMIT University in 2025. My research lies at the intersection of data management, machine learning, and large-scale intelligent systems.</p>
-									<p style="line-height:1.6; margin-bottom:0.6em;">
-									I focus on building learning-enhanced, target-oriented data ecosystems that improve both AI performance and data system scalability. My work develops data-centric frameworks and algorithms for intelligent data discovery, assemblage, and selection across multi-modal data lakes, enabling high-quality, cost-effective, and explainable data pipelines for downstream AI applications.</p>
-									<p style="line-height:1.6;">
-									Broadly, my goal is to unify database principles with modern AI techniques—exploring how AI can enhance data management systems through adaptive optimization and learning, and how data management foundations can in turn improve AI reliability, efficiency, and transparency. Through this integration, I aim to advance next-generation data ecosystems that combine data quality, traceability, and accessibility with model intelligence, fostering scalable, deployable, and reproducible data-driven systems.</p>
-								</div>
-							</section>
+				<div class="publication-group">
+					<h3>Conference</h3>
+					<article class="publication">
+						<p class="pub-title">
+							<a href="https://dl.acm.org/doi/10.1145/3802008">AgenticScholar: Agentic Data Management with Pipeline Orchestration for Scholarly Corpora</a>
+						</p>
+						<p>Hai Lan, <strong>Tingting Wang</strong>, Zhifeng Bao, Guoliang Li, Daomin Ji, Ge Lee, Feng Luo, Zi Huang, Hailang Qiu, Gang Hua. </p>
+						<p class="venue">SIGMOD 2026.</p>
+					</article>
+					<article class="publication">
+						<p class="pub-title">
+							<a href="https://arxiv.org/abs/2604.27252">Unified Data Discovery across Query Modalities and User Intents</a>
+						</p>
+						<p><strong>Tingting Wang</strong>, Shixun Huang, Zhifeng Bao, J. Shane Culpepper, Shazia Sadiq, Volkan Dedeoglu, Reza Arablouei.</p>
+						<p class="venue">Under review at NIPS 2026</p>
+					</article>
+					<article class="publication">
+						<p class="pub-title">
+							<a href="https://dl.acm.org/doi/10.1145/3696410.3714830">Distinctiveness Maximization in Datasets Assemblage</a>
+						</p>
+						<p><strong>Tingting Wang</strong>, Shixun Huang, Zhifeng Bao, J. Shane Culpepper, Volkan Dedeoglu, Reza Arablouei.</p>
+						<p class="venue">WWW 2025.</p>
+					</article>
+					<article class="publication">
+						<p class="pub-title">
+							<a href="https://www.vldb.org/pvldb/vol17/p1310-bao.pdf">Optimizing Data Acquisition to Enhance Machine Learning Performance</a>
+						</p>
+						<p><strong>Tingting Wang</strong>, Shixun Huang, Zhifeng Bao, J. Shane Culpepper, Volkan Dedeoglu, Reza Arablouei.</p>
+						<p class="venue">VLDB 2024.</p>
+					</article>
+					<article class="publication">
+						<p class="pub-title">
+							<a href="https://dl.acm.org/doi/10.1145/3534678.3539079">Representative Routes Discovery From Massive Trajectories</a>
+						</p>
+						<p><strong>Tingting Wang</strong>, Shixun Huang, Zhifeng Bao, J. Shane Culpepper, Reza Arablouei.</p>
+						<p class="venue">KDD 2022.</p>
+					</article>
+					<article class="publication">
+						<p class="pub-title">
+							<a href="https://ieeexplore.ieee.org/document/8983062">ATOM: Construction of Anti-tumor Biomaterial Knowledge Graph by Biomedicine Literature</a>
+						</p>
+						<p><strong>Tingting Wang</strong>, Lei Duan, Chengxin He, Geng Deng, Ruiqi Qin, Yidan Zhang.</p>
+						<p class="venue">BIBM 2019.</p>
+					</article>
+				</div>
 
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h2>EDUCATION</h2>
-									<div class="features">
-										<article>
-											<div class="mb-0 text-primary">
-												<h3><a href="https://www.rmit.edu.au/">RMIT University</a></h3> 
-												<h5>April 2021 - July 2025</h5>
-												<p>Ph.D. in School of Computing Technologies, Big Data & Data Management Group <br> Supervisors: <a href="https://sites.google.com/site/baozhifengcs/home?authuser=0">Prof. Zhifeng Bao</a> , <a href="https://culpepper.io/">Prof. Shane Culpepper</a> and <a href="https://shixunh.io/">Dr. Shixun Huang</a> </p>
-											</div>
-										</article>
-									</div>
-									<div class="features">
-										<article>
-											<div class="mb-0 text-primary">
-												<h3><a href="http://scu.edu.cn/">Sichuan University</a> (SCU) </h3> 
-												<h5>September 2017 - June 2020</h5>
-												<p>Master in School of Computer Science <br> Supervisors: Prof. Lei Duan</p>
-											</div>
-										</article>
-									</div>
-									<div class="features">
-										<article>
-											<div class="mb-0 text-primary">
-												<h3><a href="http://scu.edu.cn/">Sichuan University</a> (SCU) </h3> 
-												<h5>September 2013 - June 2017</h5>
-												<p>Bachelor in School of Computer Science, first class honours</p>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section>
+				<div class="publication-group">
+					<h3>Journal</h3>
+					<article class="publication">
+						<p class="pub-title">
+							<a href="https://www.preprints.org/manuscript/202606.1165">A Survey of LLM-Powered Question Answering Through the Lens of Query Processing</a>
+						</p>
+						<p>Gang Hua<sup>*</sup>, <strong>Tingting Wang</strong><sup>*</sup>, Zhifeng Bao, Shazia Sadiq, Qing Xie. <span class="note"><sup>*</sup>Equal contribution.</span></p>
+						<p class="venue">Preprints, 2026.</p>
+					</article>
+					<article class="publication">
+						<p class="pub-title">
+							<a href="https://ieeexplore.ieee.org/document/9674848">Dynamic Ridesharing with Minimal Regret: Towards an Enhanced Engagement Among Three Stakeholders</a>
+						</p>
+						<p><strong>Tingting Wang</strong>, Hui Luo, Zhifeng Bao, Lei Duan.</p>
+						<p class="venue">IEEE TKDE, 2023.</p>
+					</article>
+					<article class="publication">
+						<p class="pub-title">
+							<a href="https://ieeexplore.ieee.org/document/9529001">An Integrative Disease Information Network Approach to Similar Disease Detection</a>
+						</p>
+						<p>Wuli Xu, Lei Duan, Huiru Zheng, Jesse Li-Ling, Weipeng Jiang, Yidan Zhang, <strong>Tingting Wang</strong>, Ruiqi Qin.</p>
+						<p class="venue">IEEE/ACM TCBB, 2023.</p>
+					</article>
+					<article class="publication">
+						<p class="pub-title">
+							<a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705122008656">Efficient mining of concept-hierarchy aware distinguishing sequential patterns</a>
+						</p>
+						<p>Chengxin He, Lei Duan, Guozhu Dong, Jyrki Nummenmaa, <strong>Tingting Wang</strong>, Tinghai Pang.</p>
+						<p class="venue">Knowledge-Based Systems, 2022.</p>
+					</article>
+					<article class="publication">
+						<p class="pub-title">
+							<a href="https://ieeexplore.ieee.org/document/9274368">Mining Similar Aspects for Gene Similarity Explanation Based on Gene Information Network</a>
+						</p>
+						<p>Yidan Zhang, Lei Duan, Huiru Zheng, Jesse Li-Ling, Ruiqi Qin, Zihao Chen, Chengxin He, <strong>Tingting Wang</strong>.</p>
+						<p class="venue">IEEE/ACM TCBB, 2022.</p>
+					</article>
+					<article class="publication">
+						<p class="pub-title">
+							<a href="https://dl.acm.org/doi/10.1145/3399671">Efficient Mining of Outlying Sequence Patterns for Analyzing Outlierness of Sequence Data</a>
+						</p>
+						<p><strong>Tingting Wang</strong>, Lei Duan, Guozhu Dong, Zhifeng Bao.</p>
+						<p class="venue">ACM TKDD, 2020.</p>
+					</article>
+					<article class="publication">
+						<p class="pub-title">
+							<a href="https://link.springer.com/article/10.1007%2Fs00607-018-0601-1">Mining distinguishing customer focus sets from online customer reviews</a>
+						</p>
+						<p>Lei Duan, Lu Liu, Guozhu Dong, Jyrki Nummenmaa, <strong>Tingting Wang</strong>, Pan Qin, Hao Yang.</p>
+						<p class="venue">Computing, 2018.</p>
+					</article>
+				</div>
+			</section>
 
-						<!-- Three -->
-						<section id="three">
-								<div class="container">
-									<h2>PUBLICATIONS</h2>
-									<h3>Conference</h3>
-									<ul class="feature-icons">
-										<i class="icon solid fa-book"></i> <strong>Tingting Wang</strong>, Shixun Huang, Zhifeng Bao, J. Shane Culpepper, Volkan Dedeoglu, Reza Arablouei: Distinctiveness Maximization in Datasets Assemblage. In Proceedings of the ACM on Web Conference 2025 (WWW 2025): 3219-3232. [<a href="https://dl.acm.org/doi/10.1145/3696410.3714830">Paper</a>] <br>
-										<i class="icon solid fa-book"></i> <strong>Tingting Wang</strong>, Shixun Huang, Zhifeng Bao, J. Shane Culpepper, Volkan Dedeoglu, Reza Arablouei: Optimizing Data Acquisition to Enhance Machine Learning Performance. Proceedings of the VLDB Endowment (PVLDB), 17(6): 1310-1323 (2024). [<a href="https://www.vldb.org/pvldb/vol17/p1310-bao.pdf">Paper</a>] <br>
-										<i class="icon solid fa-book"></i> <strong>Tingting Wang</strong>, Shixun Huang, Zhifeng Bao, J. Shane Culpepper, Reza Arablouei: Representative Routes Discovery From Massive Trajectories. In the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2022): 4059-4069. [<a href="https://dl.acm.org/doi/10.1145/3534678.3539079">Paper</a>] <br>
-										<i class="icon solid fa-book"></i> <strong>Tingting Wang</strong>, Lei Duan, Chengxin He, Geng Deng, Ruiqi Qin, Yidan Zhang: ATOM: Construction of Anti-tumor Biomaterial Knowledge Graph by Biomedicine Literature. In: International Conference on Bioinformatics & Biomedicine 2019 (BIBM 2019): 1256-1258. [<a href="https://ieeexplore.ieee.org/document/8983062">Paper</a>]
-									</ul>
-									<h3>Journal</h3>
-									<ul class="feature-icons">
-										<i class="icon solid fa-book"></i> <strong>Tingting Wang</strong>, Hui Luo, Zhifeng Bao, and Lei Duan: Dynamic Ridesharing with Minimal Regret: Towards an Enhanced Engagement Among Three Stakeholders. IEEE Transactions on Knowledge and Data Engineering, 35(4): 3712-3726 (2023). [<a href="https://ieeexplore.ieee.org/document/9674848">Paper</a>] <br>
-										<i class="icon solid fa-book"></i> <strong>Tingting Wang</strong>, Lei Duan, Guozhu Dong, and Zhifeng Bao: Efficient Mining of Outlying Sequence Patterns for Analyzing Outlierness of Sequence Data. ACM Transaction on Knowledge and Data Discovery, 14(5): 62:1-62:26 (2020). [<a href="https://dl.acm.org/doi/10.1145/3399671">Paper</a>] <br>
-										<i class="icon solid fa-book"></i>Chengxin He, Lei Duan, Guozhu Dong, Jyrki Nummenmaa, <strong>Tingting Wang</strong>, Tinghai Pang: Efficient mining of concept-hierarchy aware distinguishing sequential patterns. Knowledge-Based Systems, 255: 109710 (2022). [<a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705122008656?via%3Dihub">Paper</a>] <br>
-										<i class="icon solid fa-book"></i> Wuli Xu, Lei Duan, Huiru Zheng, Jesse Li-Ling, Weipeng Jiang, Yidan Zhang, <strong>Tingting Wang</strong>, Ruiqi Qin: An Integrative Disease Information Network Approach to Similar Disease Detection. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 20(5): 2724-2735 (2023). [<a href="https://ieeexplore.ieee.org/document/9529001">Paper</a>] <br>
-										<i class="icon solid fa-book"></i> Yidan Zhang, Lei Duan, Huiru Zheng, Jesse Li-Ling, Ruiqi Qin, Zihao Chen, Chengxin He, <strong>Tingting Wang</strong>: Mining Similar Aspects for Gene Similarity Explanation Based on Gene Information Network. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 19(3): 1734-1746 (2022). [<a href="https://ieeexplore.ieee.org/document/9274368">Paper</a>] <br>
-										<i class="icon solid fa-book"></i> Lei Duan, Lu Liu, Guozhu Dong, Jyrki Nummenmaa, <strong>Tingting Wang</strong>, Pan Qin, Hao Yang: Mining distinguishing customer focus sets from online customer reviews. Computing, 100(4): 335-351 (2018). [<a href="https://link.springer.com/article/10.1007%2Fs00607-018-0601-1">Paper</a>] 
-									</ul>
-								</div>
-							</section>
-							
-						<!-- Four -->
-							<section id="four">
-								<div class="container">
-									<h2>EXPERIENCE</h2>
-									<div class="features">
-										<article>
-											<div class="mb-0 text-primary">
-												<h3>Professional Activities</h3>
-												<ul class="feature-icons">
-												<i class="icon solid fa-bolt"></i> Session Chair in The ACM on Web Conference 2025 (WWW 2025) <br>
-										        <i class="icon solid fa-bolt"></i> Session Chair in Australasian Database Conference (ADC 2023) <br>
-										        <i class="icon solid fa-bolt"></i> Senior Program Committee Member in The Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD 2026) <br>
-										        <i class="icon solid fa-bolt"></i> Program Committee Member in The Web Conference (WWW 2026) <br>
-										        <i class="icon solid fa-bolt"></i> Program Committee Member in ACM International Conference on Information and Knowledge Management (CIKM 2023, CIKM 2024, CIKM 2025) <br>
-										        <i class="icon solid fa-bolt"></i> Scientific Program Committee Member in IEEE Swiss Conference on Data Science 2025 (SDS 2025) 
-										        </ul> 
-											</div>
-										</article>
-									</div>
-									<div class="features">
-										<article>
-											<div class="mb-0 text-primary">
-												<h3>Work Experiences</h3> 
-												<h4>Research Assistant in KDDE Lab</h4>
-												<h5>July 2020 - June 2021</h5>
-												<p>Sichuan University, China</p>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section>
-						<!-- six -->
-							<section id="Five">
-								<div class="container">
-									<h2>AWARDS</h2>
-									<ul class="feature-icons">
-										<i class="icon solid fa-bolt"></i> Data61 PhD Scholarship, 2022-2024 <br>
-										<i class="icon solid fa-bolt"></i> Second-class Scholarship of SCU, 2018-2020 <br>
-										<i class="icon solid fa-bolt"></i> Outstanding Graduate Award of SCU, 2017 <br>
-										<i class="icon solid fa-bolt"></i> National Scholarship of China, 2016 <br>
-										<i class="icon solid fa-bolt"></i> First-class Scholarship of SCU, 2016 <br>
-										<i class="icon solid fa-bolt"></i> Meritorious Winner of MCM/ICM, 2016 <br>
-										<i class="icon solid fa-bolt"></i> Outstanding Student Award of SCU, 2014-2016
-									</ul>
-								</div>
-							</section>
-					
-							
-						<!-- Four -->
-					    	<!--
-							<section id="four">
-								<div class="container">
-									<h3>Contact Me</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<form method="post" action="#">
-										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-											<div class="col-12">
-												<ul class="actions">
-													<li><input type="submit" class="primary" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
-								</div>
-							</section>
+			<section id="projects" class="section section-narrow">
+				<div class="section-heading">
+					<p class="eyebrow">Projects</p>
+					<h2>Target-Driven Data Curation</h2>
+					<p class="section-intro">
+						This topic focuses on discovering, assembling, and acquiring high-quality data from heterogeneous
+						data lakes for target-oriented AI applications.
+					</p>
+				</div>
 
-						<!-- Five -->
-						<!--
-							<section id="five">
-								<div class="container">
-									<h3>Elements</h3>
+				<div class="project-list">
+					<article class="project-card">
+						<p class="project-label">Dataset Discovery</p>
+						<h3>Unified Data Discovery across Query Modalities and User Intents</h3>
+						<figure class="project-figure">
+							<img src="images/projects/unidisc.png" alt="Unified Data Discovery framework" />
+						</figure>
+						<p>
+							Modern data lakes support diverse applications such as question answering and fact verification,
+							yet existing data discovery methods are typically designed for a single query modality or
+							specific user intent. This work studies how to uniformly retrieve relevant tables given either
+							natural language statements or tables as queries, without relying on intent-specific modeling.
+							To this end, a unified cross-modal graph learning framework is introduced to learn shared
+							representations for queries and tables by leveraging heterogeneous contextual signals in data
+							lakes under limited supervision, enabling flexible and scalable relevance assessment.
+						</p>
+						<p class="project-links">
+							<a href="https://arxiv.org/abs/2604.27252">Paper</a>
+						</p>
+					</article>
 
-									<section>
-										<h4>Text</h4>
-										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-										<hr />
-										<header>
-											<h4>Heading with a Subtitle</h4>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<header>
-											<h5>Heading with a Subtitle</h5>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<hr />
-										<h2>Heading Level 2</h2>
-										<h3>Heading Level 3</h3>
-										<h4>Heading Level 4</h4>
-										<h5>Heading Level 5</h5>
-										<h6>Heading Level 6</h6>
-										<hr />
-										<h5>Blockquote</h5>
-										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-										<h5>Preformatted</h5>
-										<pre><code>i = 0;
+					<article class="project-card">
+						<p class="project-label">Dataset Assemblage</p>
+						<h3>Distinctiveness Maximization in Datasets Assemblage</h3>
+						<figure class="project-figure">
+							<img src="images/projects/dm.png" alt="Distinctiveness Maximization framework" />
+						</figure>
+						<p>
+							Modern data lakes offer abundant datasets, yet existing discovery methods typically evaluate
+							datasets individually, leading to redundant acquisitions and inefficient budget usage. This
+							work studies how to assemble a set of datasets under a budget to maximize the amount of
+							distinct information with respect to a query set. We formulate this as a distinctiveness
+							maximization problem and develop an efficient ML-based method to estimate dataset
+							distinctiveness, enabling scalable greedy selection without expensive exact computation.
+						</p>
+						<p class="project-links">
+							<a href="https://dl.acm.org/doi/10.1145/3696410.3714830">Paper</a>
+							<a href="https://github.com/rmitbggroup/DM">Code</a>
+						</p>
+					</article>
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
+					<article class="project-card">
+						<p class="project-label">Data Point Selection</p>
+						<h3>Optimizing Data Acquisition to Enhance Machine Learning Performance</h3>
+						<figure class="project-figure">
+							<img src="images/projects/daml.png" alt="Data acquisition for machine learning framework" />
+						</figure>
+						<p>
+							Modern machine learning models depend heavily on training data quality, yet simply collecting
+							more data does not guarantee better performance. This work studies how to select high-quality
+							labeled data from large, heterogeneous data pools to improve a target ML model. Since validating
+							data value typically requires repeated retraining during selection, which is computationally
+							expensive, we develop adaptive, model-agnostic algorithms that combine online learning with
+							dynamic exploration-exploitation scoring to efficiently estimate data utility without full
+							retraining.
+						</p>
+						<p class="project-links">
+							<a href="https://www.vldb.org/pvldb/vol17/p1310-bao.pdf">Paper</a>
+							<a href="https://github.com/rmitbggroup/da-ml">Code</a>
+						</p>
+					</article>
+				</div>
+			</section>
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-									</section>
+			<section id="service" class="section section-narrow">
+				<div class="section-heading">
+					<p class="eyebrow">Community</p>
+					<h2>Professional Service</h2>
+				</div>
+				<ul class="service-list">
+					<li>Session Chair, The ACM Web Conference 2025 (WWW 2025)</li>
+					<li>Session Chair, Australasian Database Conference 2023 (ADC 2023)</li>
+					<li>Senior Program Committee Member, Pacific-Asia Conference on Knowledge Discovery and Data Mining 2026 (PAKDD 2026)</li>
+					<li>Program Committee Member, The Web Conference 2026 (WWW 2026)</li>
+					<li>Program Committee Member, ACM International Conference on Information and Knowledge Management 2023, 2024, 2025 (CIKM)</li>
+					<li>Scientific Program Committee Member, IEEE Swiss Conference on Data Science 2025 (SDS 2025)</li>
+				</ul>
+			</section>
 
-									<section>
-										<h4>Lists</h4>
-										<div class="row">
-											<div class="col-6 col-12-xsmall">
-												<h5>Unordered</h5>
-												<ul>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-												<h5>Alternate</h5>
-												<ul class="alt">
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-											</div>
-											<div class="col-6 col-12-xsmall">
-												<h5>Ordered</h5>
-												<ol>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ol>
-												<h5>Icons</h5>
-												<ul class="icons">
-													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-												</ul>
-											</div>
-										</div>
-										<h5>Actions</h5>
-										<ul class="actions">
-											<li><a href="#" class="button primary">Default</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Default</a></li>
-										</ul>
-										<ul class="actions small">
-											<li><a href="#" class="button primary small">Small</a></li>
-											<li><a href="#" class="button small">Small</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<div class="row">
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
-													<li><a href="#" class="button alt">Default</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6 col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
-													<li><a href="#" class="button alt small">Small</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary fit">Default</a></li>
-													<li><a href="#" class="button fit">Default</a></li>
-													<li><a href="#" class="button alt fit">Default</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary small fit">Small</a></li>
-													<li><a href="#" class="button small fit">Small</a></li>
-													<li><a href="#" class="button alt small fit">Small</a></li>
-												</ul>
-											</div>
-										</div>
-									</section>
+			<section id="awards" class="section section-narrow">
+				<div class="section-heading">
+					<p class="eyebrow">Recognition</p>
+					<h2>Awards</h2>
+				</div>
+				<div class="award-grid">
+					<p><span>2022 - 2024</span>Data61 PhD Scholarship</p>
+					<p><span>2018 - 2020</span>Second-class Scholarship of SCU</p>
+					<p><span>2017</span>Outstanding Graduate Award of SCU</p>
+					<p><span>2016</span>National Scholarship of China</p>
+					<p><span>2016</span>First-class Scholarship of SCU</p>
+					<p><span>2016</span>Meritorious Winner of MCM/ICM</p>
+					<p><span>2014 - 2016</span>Outstanding Student Award of SCU</p>
+				</div>
+			</section>
+		</main>
 
-									<section>
-										<h4>Table</h4>
-										<h5>Default</h5>
-										<div class="table-wrapper">
-											<table>
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-
-										<h5>Alternate</h5>
-										<div class="table-wrapper">
-											<table class="alt">
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-									</section>
-
-									<section>
-										<h4>Buttons</h4>
-										<ul class="actions">
-											<li><a href="#" class="button primary">Primary</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Alternate</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary large">Large</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<ul class="actions fit">
-											<li><a href="#" class="button primary fit">Fit</a></li>
-											<li><a href="#" class="button fit">Fit</a></li>
-											<li><a href="#" class="button alt fit">Fit</a></li>
-										</ul>
-										<ul class="actions fit small">
-											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-											<li><a href="#" class="button fit small">Fit + Small</a></li>
-											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
-										</ul>
-										<ul class="actions">
-											<li><span class="button primary disabled">Primary</span></li>
-											<li><span class="button disabled">Default</span></li>
-											<li><span class="button alt disabled">Alternate</span></li>
-										</ul>
-									</section>
-
-									<section>
-										<h4>Form</h4>
-										<form method="post" action="#">
-											<div class="row gtr-uniform">
-												<div class="col-6 col-12-xsmall">
-													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-												</div>
-												<div class="col-6 col-12-xsmall">
-													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-												</div>
-												<div class="col-12">
-													<select name="demo-category" id="demo-category">
-														<option value="">- Category -</option>
-														<option value="1">Manufacturing</option>
-														<option value="1">Shipping</option>
-														<option value="1">Administration</option>
-														<option value="1">Human Resources</option>
-													</select>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-													<label for="demo-priority-low">Low Priority</label>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-normal" name="demo-priority">
-													<label for="demo-priority-normal">Normal Priority</label>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-high" name="demo-priority">
-													<label for="demo-priority-high">High Priority</label>
-												</div>
-												<div class="col-6 col-12-medium">
-													<input type="checkbox" id="demo-copy" name="demo-copy">
-													<label for="demo-copy">Email me a copy of this message</label>
-												</div>
-												<div class="col-6 col-12-medium">
-													<input type="checkbox" id="demo-human" name="demo-human" checked>
-													<label for="demo-human">I am a human and not a robot</label>
-												</div>
-												<div class="col-12">
-													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-												</div>
-												<div class="col-12">
-													<ul class="actions">
-														<li><input type="submit" value="Send Message" /></li>
-														<li><input type="reset" value="Reset" class="alt" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
-
-									<section>
-										<h4>Image</h4>
-										<h5>Fit</h5>
-										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
-										<div class="box alt">
-											<div class="row gtr-50 gtr-uniform">
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-											</div>
-										</div>
-										<h5>Left &amp; Right</h5>
-										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									</section>
-
-								</div>
-							</section>
-						-->
-
-					</div>
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+		<footer class="site-footer">
+			<p>&copy; Tingting Wang. Last updated 2026.</p>
+		</footer>
 	</body>
 </html>
