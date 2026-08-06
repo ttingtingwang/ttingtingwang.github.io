@@ -275,6 +275,7 @@ a:hover {
 .news-list,
 .publication-group,
 .project-group,
+.student-list,
 .service-list {
 	background: var(--panel);
 	border: 1px solid var(--line);
@@ -415,6 +416,52 @@ a:hover {
 	font-size: 0.92em;
 }
 
+.student-group {
+	padding: 1rem 1.25rem;
+	border-bottom: 1px solid var(--line);
+}
+
+.student-group:last-child {
+	border-bottom: 0;
+}
+
+.student-group h3 {
+	margin: 0 0 0.7rem;
+	font-size: 1rem;
+	font-style: italic;
+	font-weight: 500;
+}
+
+.student {
+	display: grid;
+	grid-template-columns: 7.8rem minmax(0, 1fr);
+	gap: 0.75rem;
+	align-items: baseline;
+}
+
+.student + .student {
+	margin-top: 0.4rem;
+}
+
+.student time {
+	color: var(--muted);
+	font-size: 0.92rem;
+}
+
+.student p {
+	margin: 0;
+}
+
+.student-role {
+	display: inline-block;
+	margin-left: 0.45rem;
+	padding: 0.08rem 0.42rem;
+	border: 1px solid var(--line);
+	border-radius: 999px;
+	color: var(--muted);
+	font-size: 0.82rem;
+}
+
 .service-list {
 	padding: 0.45rem 1.25rem;
 }
@@ -504,6 +551,11 @@ a:hover {
 
 	.timeline li {
 		grid-template-columns: 5.8rem minmax(0, 1fr);
+	}
+
+	.student {
+		grid-template-columns: 1fr;
+		gap: 0.05rem;
 	}
 
 	.project-figure-compact img {
